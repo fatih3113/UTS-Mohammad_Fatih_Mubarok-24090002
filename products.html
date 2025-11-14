@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Produk - UTS Web Programming</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="products-page">
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="nav-item">
+                    <span>🏠</span>
+                    <div>Home</div>
+                </a>
+                <a href="products.html" class="nav-item active">
+                    <span>📦</span>
+                    <div>Products</div>
+                </a>
+                <a href="#" class="nav-item">
+                    <span>📊</span>
+                    <div>Analytics</div>
+                </a>
+                <a href="#" class="nav-item">
+                    <span>📄</span>
+                    <div>Reports</div>
+                </a>
+                <a href="index.html" class="nav-item">
+                    <span>⚙️</span>
+                    <div>Settings</div>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="page-header">
+                <h1>List Data Product</h1>
+            </header>
+
+            <div class="table-container">
+                <table class="products-table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productsTableBody">
+                        <!-- Data produk akan di-render menggunakan JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="action-section">
+                <button onclick="window.location.href='dashboard.html'" class="btn-secondary">
+                    Kembali ke Dashboard
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
