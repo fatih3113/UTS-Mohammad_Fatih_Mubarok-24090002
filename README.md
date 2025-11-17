@@ -18,8 +18,8 @@
 
 # LOGIN MENGGUNAKAN INI
 
-Gmail : fatihmubarok850@gmail.com
-NIM: 24090002
+# Gmail : fatihmubarok850@gmail.com
+# NIM: 24090002
 
 Halaman login dengan fitur:
 
